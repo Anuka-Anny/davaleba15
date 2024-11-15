@@ -1,0 +1,118 @@
+@import "reset";
+@import "mixins";
+
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    padding: 20px;
+
+    nav {
+        ul {
+            display: flex;
+            justify-content: center;
+
+            li {
+                margin: 0 20px;
+
+                a {
+
+                    font-weight: bold;
+
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.auth-form {
+
+    padding: 30px;
+    margin: 30px auto;
+    width: 300px;
+    border-radius: 5px;
+
+    h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid black;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+
+        cursor: pointer;
+
+        &:hover {
+            background-color: pink;
+        }
+    }
+}
+
+
+main {
+    padding: 50px 20px;
+
+    .section-1,
+    .section-2 {
+        margin-bottom: 50px;
+
+        h2 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .photo-grid {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+
+            .photo {
+                width: 48%;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+
+
+footer {
+    background-color: khaki;
+    padding: 20px;
+
+    .contact-info {
+        text-align: center;
+
+        p {
+            margin: 10px 0;
+        }
+    }
+}
