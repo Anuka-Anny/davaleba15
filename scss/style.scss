@@ -1,16 +1,12 @@
 @import "reset";
 @import "mixins";
-
 body {
     background-color: gray;
     margin: 0;
     padding: 0;
 }
-
-
 header {
     padding: 20px;
-
     nav {
         ul {
             display: flex;
@@ -31,21 +27,15 @@ header {
         }
     }
 }
-
-
-
 .auth-form {
-
     padding: 30px;
     margin: 30px auto;
     width: 500px;
     border-radius: 5px;
-
     h3 {
         text-align: center;
         margin-bottom: 20px;
     }
-
     input {
         width: 100%;
         padding: 10px;
@@ -54,7 +44,6 @@ header {
         border-radius: 3px;
         font-size: 16px;
     }
-
     button {
         width: 100%;
         padding: 10px;
@@ -69,11 +58,8 @@ header {
         }
     }
 }
-
-
 main {
     padding: 50px 20px;
-
     .section-1,
     .section-2 {
         margin-bottom: 50px;
@@ -83,15 +69,12 @@ main {
             text-align: center;
             margin-bottom: 20px;
         }
-
         .photo-grid {
             display: flex;
             justify-content: space-between;
             gap: 30px;
-
             .photo {
                 width: 48%;
-
                 img {
                     width: 100%;
                     height: 300px;
@@ -101,16 +84,11 @@ main {
         }
     }
 }
-
-
-
 footer {
     background-color: khaki;
     padding: 20px;
-
     .contact-info {
         text-align: center;
-
         p {
             margin: 10px 0;
         }
